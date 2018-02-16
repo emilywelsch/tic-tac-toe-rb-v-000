@@ -87,7 +87,7 @@ end
 # current_player
 def current_player(board)
   # if turn_count is an odd number then it's O's turn, even number then it's X's turn
-  turn_count(board).even? ? "X" : "O"
+  turn_count(board).even? "X" : "O"
 end
 # won?
 def won?(board)
