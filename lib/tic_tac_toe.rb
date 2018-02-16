@@ -123,6 +123,7 @@ def winner(board)
 end
 # Define your play method below
 def play(board)
+  input = gets
   # Start a loop and call #turn
   while !over?(board)
     turn(board)
