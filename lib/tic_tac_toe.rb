@@ -124,7 +124,7 @@ def full?(board)
 end
 # draw?
 def draw?(board)
-  won?(board) == nil && full?(board) == true
+  !won?(board) && full?(board)
 end
 # over?
 def over?(board)
