@@ -36,8 +36,8 @@ def input_to_index(input)
   input.to_i - 1
 end
 # Decide who's move it is, X or O
-def move(board, index, user_marker)
-  board[index.to_i] = user_marker
+def move(board, index, current_player)
+  board[index.to_i] = current_player
 end
 # Is the position on the board taken?
 def position_taken?(board, index)
