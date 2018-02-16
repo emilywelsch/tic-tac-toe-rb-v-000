@@ -9,7 +9,7 @@ WIN_COMBINATIONS = [
   [0,4,8], # Left diagonal
   [2,4,6]  # Right diagonal
 ]
-# Define your play method 
+# Define your play method
 def play(board)
   input = gets
   # Start a loop and call #turn
@@ -65,7 +65,7 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
-  if valid_move?(board,index) == true
+  if valid_move?(board, index) == true
     move(board, index, user_marker = 'X')
     display_board(board)
   else
