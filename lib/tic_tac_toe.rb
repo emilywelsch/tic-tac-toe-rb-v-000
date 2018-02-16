@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
 ]
 # Define your play method
 def play(board)
-  input = gets
+  # input = gets
   # Start a loop and call #turn
   while !over?(board)
     turn(board)
