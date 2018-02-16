@@ -128,7 +128,6 @@ def draw?(board)
 end
 # over?
 def over?(board)
-  # draw?(board) == true || won?(board) != nil
   won?(board) || draw?(board)
 end
 # winner
