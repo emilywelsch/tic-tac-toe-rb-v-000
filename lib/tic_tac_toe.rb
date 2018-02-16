@@ -129,7 +129,7 @@ end
 # over?
 def over?(board)
   # draw?(board) == true || won?(board) != nil
-  won?(board) || full?(board)
+  won?(board) || draw?(board)
 end
 # winner
 def winner(board)
